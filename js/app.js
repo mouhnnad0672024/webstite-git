@@ -1,5 +1,5 @@
 const heading = document.querySelector("h2");
-heading.addEventListener('click',()=>
+heading.addEventListener('click',(e)=>
 {
-    alert(this.innerText);
+    alert(e.target.innerText);
 })
